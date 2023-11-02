@@ -15,11 +15,10 @@ This repository contains a Python web scraping project that allows you to scrape
 
 Follow these steps to get started with the web scraping project:
 
-1. Clone this repository to your local machine:
+1. Starting the programm
 
    ```bash
-   git clone https://github.com/yourusername/web-scraping-project.git
-
+   python scrapper.py
 
 ## Rules
 
