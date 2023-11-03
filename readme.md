@@ -48,6 +48,9 @@ We have exciting features in the pipeline, including:
 
 4. **Data Export Options**: Provide more options to export scraped data, such as exporting to a database.
 
+5.  **GUI**: Soon the new gui will be able it will be user friendly.
+
+
 Stay tuned for these upcoming enhancements!
 
 
