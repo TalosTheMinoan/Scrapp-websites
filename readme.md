@@ -23,7 +23,15 @@ This is a Python web scraping tool that extracts various types of data from a sp
    - JSON
    - CSV
    - HTML
-   - 
+   -
+
+    ## Bug Fixes
+
+- **Fixed HTML Export**: The HTML content of the web page is now correctly saved when choosing the "HTML" export format. A bug that previously prevented it from saving has been resolved.
+
+- **Error Handling**: Robust error-handling mechanisms have been implemented to gracefully handle various exceptions that might occur during scraping.
+
+
 ## Getting Started
 
 Follow these steps to get started with the web scraping project:
