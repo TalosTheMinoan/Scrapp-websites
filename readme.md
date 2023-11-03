@@ -25,11 +25,30 @@ This is a Python web scraping tool that extracts various types of data from a sp
    - HTML
    -
 
-    ## Bug Fixes
+ ## Bug Fixes
 
 - **Fixed HTML Export**: The HTML content of the web page is now correctly saved when choosing the "HTML" export format. A bug that previously prevented it from saving has been resolved.
 
 - **Error Handling**: Robust error-handling mechanisms have been implemented to gracefully handle various exceptions that might occur during scraping.
+
+- **CSS Styles Bug**: Previously, certain CSS styles were not being extracted correctly. This issue has been fixed.
+
+- **Link Validation Bug**: There was an issue with link validation where some links were not correctly validated. This bug has been addressed.
+
+
+## Upcoming Features
+
+We have exciting features in the pipeline, including:
+
+1. **Batch Processing**: Enable batch processing of multiple URLs or websites in a single run.
+
+2. **Custom Headers**: Provide the ability to specify custom headers for HTTP requests, useful for mimicking different user agents or providing specific headers as needed.
+
+3. **Visual Scraping**: Incorporate a visual scraping tool that lets users click on elements to select data for extraction.
+
+4. **Data Export Options**: Provide more options to export scraped data, such as exporting to a database.
+
+Stay tuned for these upcoming enhancements!
 
 
 ## Getting Started
