@@ -1,16 +1,29 @@
-# Web Scraping Project
+# Web Scraper
 
-This repository contains a Python web scraping project that allows you to scrape data from websites. It includes various features and improvements for web scraping.
+This is a Python web scraping tool that extracts various types of data from a specified website. The extracted data can be saved in JSON, CSV, or HTML format.
 
 ## Features
 
-- **Scrape Data**: Extract and log data from web pages.
-- **Error Handling**: Gracefully handle various exceptions that might occur during scraping.
-- **Data Analysis**: Integrate data analysis tools or libraries like Pandas to process and analyze the scraped data.
-- **Input Validation**: Validate user-provided URLs to prevent security issues like injection attacks.
-- **Proxy Support**: Incorporate proxy rotation to avoid IP bans and access geo-restricted content.
-- **Robots.txt Parsing**: Respect the `robots.txt` file of websites to ensure ethical scraping.
+1. **Data Extraction**: The scraper extracts the following data from a web page:
+   - Title
+   - Headings (h1 to h6)
+   - Paragraphs
+   - Image sources
+   - All text data
+   - CSS styles
+   - Links
+   - File download links (PDFs, DOCs, XLS files)
+   - JavaScript script sources
 
+2. **Link Validation**: The tool validates and cleans links to ensure they are accessible and within the same domain as the base URL.
+
+3. **HTML Content**: The HTML content of the page is saved in the exported files.
+
+4. **Export Formats**: You can save the extracted data in the following formats:
+   - JSON
+   - CSV
+   - HTML
+   - 
 ## Getting Started
 
 Follow these steps to get started with the web scraping project:
