@@ -41,6 +41,11 @@ Follow these steps to get started with the web scraping project:
    ```bash
    python scrapper.py
 
+2. Install requirements
+   
+   ```bash
+   pip install requests beautifulsoup4
+
 ## Rules
 
 -Legal Use: Do not use this program for any illegal or unethical activities.
