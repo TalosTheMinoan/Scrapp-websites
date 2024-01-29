@@ -70,10 +70,11 @@ Follow these steps to get started with the web scraping project:
 
 ## Rules
 
--Legal Use: Do not use this program for any illegal or unethical activities.
+-Legal Use: Do not use this program for any illegal or unethical activities if you use it for illegal activity it is your own fault not the owners fault! use it with caution
 -Respect Licensing: Comply with the terms of the project's MIT License.
 -Ethical Scraping: Follow ethical scraping practices, including respecting the robots.txt file of websites.
 -User Privacy: Be respectful of user privacy and data. Do not collect sensitive or personal information without consent.
+
 
 
 ## Licence
